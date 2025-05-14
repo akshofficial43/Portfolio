@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aksh Patel | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #111827, #000);
+      color: #fff;
+    }
+
+    main {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    header p {
+      color: #9ca3af;
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+    }
+
+    .projects {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: 1fr;
+    }
+
+    @media (min-width: 768px) {
+      .projects {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .card {
+      border-left: 4px solid #fff;
+      padding-left: 1rem;
+    }
+
+    .card h3 {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      color: #d1d5db;
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      color: #fff;
+      background-color: transparent;
+      border: 1px solid #fff;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    ul.skills {
+      list-style-type: disc;
+      color: #d1d5db;
+      margin-left: 1.5rem;
+    }
+
+    ul.skills li {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #9ca3af;
+      font-size: 0.9rem;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ffffff44;
+      margin: 1rem 0;
+      
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <h1>Aksh Patel</h1>
+    <p>Aspiring Software Developer</p>
+  </header>
+
+  <hr>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I'm a BCA student passionate about learning programming, building projects,
+        and becoming a pro developer by 2026. I'm currently diving into C, Python,
+        Java, and full-stack development.
+      </p>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>Java Wordle Game</h3>
+          <p>
+            A Java-based Wordle game with scoring, difficulty modes, and file-based high score tracking.
+          </p>
+          <a href="#" class="btn">View Code</a>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>C Programming & Data Structures</li>
+        <li>Python (Beginner)</li>
+        <li>Java (OOP & GUI Projects)</li>
+        <li>Web Development (HTML, CSS, Basic JS)</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: aksh340@email.com</p>
+      <p>GitHub: github.com/akshpatel</p>
+    </section>
+  </main>
+
+  <hr>
+
+  <footer>
+    © 2025 Aksh Patel. All rights reserved.
+  </footer>
+
+</body>
+</html>
